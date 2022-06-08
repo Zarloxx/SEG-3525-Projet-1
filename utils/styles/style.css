@@ -7,14 +7,6 @@ body {
     background-color: rgb(163, 203, 220) !important; 
 }
 
-.topnav-centered a {
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .btn-nav {
     color: black;
     background-color: rgb(110, 174, 201);
