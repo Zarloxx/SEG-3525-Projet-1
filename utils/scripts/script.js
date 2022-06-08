@@ -1,6 +1,6 @@
 
 // Initialization of the page *(On load)
-window.addEventListener("load", addListeners);
+//window.addEventListener("load", addListeners);
 
 function addListeners(){
     /*--------------------------------------------------------------------------------------------------------------------
@@ -23,7 +23,6 @@ function registerAppointment() {
       * name:     (str) The name of the customer
     --------------------------------------------------------------------------------------------------------------------*/
     document.getElementById("myPopup").innerHTML = "<b>votre rendez-vous a été enregistré</b>";
-
     /*
     // Set appointment variables
     var service = "";
