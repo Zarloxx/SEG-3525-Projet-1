@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    color: white;
+    color: black;
     text-align: center;
 }
 
@@ -13,5 +13,5 @@ h1 {
 }
 
 .allign-middle {
-    text-align:center !important; 
+    align-self: center !important; 
 }
