@@ -33,11 +33,11 @@ body {
 .centered-container {
     float: none;
     position: relative;
-    top: 50%;
+    top: 50% !important;
     left: 50%;
-    width: 80 !important;
+    width: 80% !important;
     /* Text */
-    padding: 2em, 2em, 2em, 2em !important;
+    padding: 2rem !important;
 }
 
 .below-nav{
