@@ -33,7 +33,4 @@ function registerAppointment() {
 
     // Display the appointment details
     document.getElementById("appointment-details-display").innerHTML = "Service: "+service+"<br>Employee: "+employee+"<br>Date: "+date;
-
-
-
 }
