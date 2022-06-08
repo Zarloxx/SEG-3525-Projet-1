@@ -44,11 +44,9 @@ function registerAppointment() {
     email = String(document.getElementById("email-input").value);
     name = String(document.getElementById("name-input").value);
 
-    if (document.getElementById("validation-input").value){
-        // Display the appointment details
-        var popup = document.getElementById("myPopup");
-        popup.innerHTML = "<b>"+name+", votre rendez-vous a été enregistré</b><br>Service: "+service+"<br>Employee: "+employee+"<br>Date: "+date;
+    // Display the appointment details
+    var popup = document.getElementById("myPopup");
+    popup.innerHTML = "<b>"+name+", votre rendez-vous a été enregistré</b><br>Service: "+service+"<br>Employee: "+employee+"<br>Date: "+date;
         
-    }
     
 }
