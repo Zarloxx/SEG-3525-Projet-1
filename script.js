@@ -22,9 +22,9 @@ function registerAppointment() {
     --------------------------------------------------------------------------------------------------------------------*/
 
     // Set appointment variables
-    var service; // Service desired for the appointment
-    var employee; // Employee with which the appointment is scheduled
-    var date; // Date of the appointment
+    var service;
+    var employee;
+    var date;
 
     // Initiate appointment variables
     service = document.getElementById("service-data").value;
@@ -33,7 +33,4 @@ function registerAppointment() {
 
     // Display the appointment details
     document.getElementById("appointment-details-display").innerHTML = "Service: "+service+"<br>Employee: "+employee+"<br>Date: "+date;
-
-
-
 }
