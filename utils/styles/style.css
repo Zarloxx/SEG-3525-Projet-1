@@ -34,12 +34,13 @@ body {
     float: none;
     position: relative;
     top: 50% !important;
-    left: 50%;
+    left: 15%;
+    right: 15%;
     width: 80% !important;
     /* Text */
-    padding: 2rem !important;
+    padding: 2em !important;
 }
 
 .below-nav{
-    top: 20%;
+    top: 30% !important;
 }
