@@ -8,12 +8,12 @@ body {
 }
 
 .allign-middle {
-    margin-left: 50% !important;
-    margin-right: 50% !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
 }
 
 .btn-nav {
     color: black;
-    background-color: rgba(0, 0, 0, 0.2);
-    border-color: rgba(0, 0, 0, 0.2);
+    background-color: rgb(110, 174, 201);
+    border-color: rgb(110, 174, 201);
 }
