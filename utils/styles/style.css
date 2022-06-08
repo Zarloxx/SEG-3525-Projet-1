@@ -32,9 +32,9 @@ body {
 
 .centered-container {
     float: none;
+    position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     width: 80 !important;
     /* Text */
     padding: 2em, 2em, 2em, 2em !important;
