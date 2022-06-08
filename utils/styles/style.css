@@ -7,9 +7,12 @@ body {
     background-color: rgb(163, 203, 220) !important; 
 }
 
-.allign-middle {
-    margin-left: 10% !important;
-    margin-right: 10% !important;
+.topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .btn-nav {
