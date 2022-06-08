@@ -1,4 +1,4 @@
-<!--button class="btn btn-outline-success me-2" type="button">Main button</button-->
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -8,7 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SEG3525-Projet1</title>
 
-    <!-- Add Javascript file reference -->
+    <!--Add Javascript file reference-->
+    <script src="utils/scripts/script.js" type="text/javascript"></script>
+    <!-- Add CSS file reference -->
     <link href="utils/styles/style.css" rel="stylesheet">
     <!-- Add Boostrap reference -->
     <!-- CSS --><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -50,11 +52,63 @@
 </nav>
 
 <body>
-    <h1>Text</h1>
+    <div class=" float-child rounded" id="myPopup" style="width: 60% !important; background-color: rgb(209, 211, 119); margin-left: 18%; text-align: center;">
+        <p></p>
+    </div>
+    <!--Pick Staff and Service-->
+    <div class="float-container">
+        <div class="float-child rounded bg-lb" style="width: 30% !important;">
+            <h1>Membre du Personnel</h1>
+            <div class="form-check ">
+                <input type="checkbox" class="form-check-input" id="employee-data1">
+                <label class="form-check-label" for="employee-data1">John</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="employee-data2">
+                <label class="form-check-label" for="employee-data2">Mike</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="employee-data3">
+                <label class="form-check-label" for="employee-data3">Brad</label>
+            </div>
+        </div>
+        <div class="float-child rounded bg-lb" style="width: 30% !important;">
+            <h1>Service demandé</h1>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="service-data1">
+                <label class="form-check-label" for="service-data1">Coupe de Cheveu</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="service-data2">
+                <label class="form-check-label" for="service-data2">Teinture de Cheveu</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="service-data3">
+                <label class="form-check-label" for="service-data3">Coup de Barbe</label>
+            </div>
+        </div>
+    </div>
+    <!--Fill personal information-->
+    <div class="container rounded bg-lb centered-container below-nav" style="width: 30% !important;">
+        <form>
+            <div class="form-group">
+                <label for="date-input">Date du rendez-vous</label>
+                <input id="date-data" placeholder="jj/mm/aaaa">
+            </div>
+            <div class="form-group">
+                <label for="email-input">Addresse Email</label>
+                <input id="email-input" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="name-input">Nom</label>
+                <input id="name-input" placeholder="Nom">
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="validation-input">
+                <label class="form-check-label" for="validation-input">Check me!</label>
+            </div>
+            <button type="submit" id="register-appointment-data" class="btn btn-primary">Prendre Rendez-Vous</button>
+        </form>
+    </div>
 </body>
-
-<footer>
-    <!--Add Javascript file reference-->
-    <!-- <script src="scripts/script.js" type="text/javascript"></script> -->
-</footer>
 </html>

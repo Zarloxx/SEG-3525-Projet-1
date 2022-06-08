@@ -31,16 +31,27 @@ body {
 }
 
 .centered-container {
-    float: none;
     position: relative;
-    top: 50% !important;
-    left: 15%;
-    right: 15%;
-    width: 80% !important;
+    margin-top: 3%;
+    width: 70% !important;
     /* Text */
     padding: 2em !important;
+    
+    display: flex;
+    align-items:center;
 }
 
-.below-nav{
-    top: 30% !important;
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
 }
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    margin-left: 13%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+
+}  
