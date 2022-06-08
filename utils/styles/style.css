@@ -3,16 +3,15 @@ body {
     background-color: white;
 }
 
-h1 {
-    color: black;
-    text-align: center;
-}
-
 .navbar {
     background-color: rgb(163, 203, 220) !important; 
 }
 
 .allign-middle {
-    margin-left: auto !important;
-    margin-right: auto !important;
+    margin-left: 50% !important;
+    margin-right: 50% !important;
+}
+
+.btn_primary {
+    background-color: rgba(0, 0, 0, 0.2) !important;
 }
