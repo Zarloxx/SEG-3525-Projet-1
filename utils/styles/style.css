@@ -12,6 +12,8 @@ body {
     margin-right: 50% !important;
 }
 
-.btn_primary {
-    background-color: rgba(0, 0, 0, 0.2) !important;
+.btn-nav {
+    color: black;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-color: rgba(0, 0, 0, 0.2);
 }
